@@ -1,6 +1,7 @@
 // import "./style.css";
 import "./style.scss";
 import moment from "moment";
+import 'alpinejs'
 import apiData from "./common/serviceAPI";
 
 console.log("Welcome Fakhri Alauddin");

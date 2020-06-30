@@ -17,5 +17,24 @@
     <div id="listPost">
       <!-- Render Post -->
     </div>
+    <h2>With Alpine Js</h2>
+    <div x-data="window.dataApi()" x-init="connect()">
+      <ul>
+        <template x-for="item in dataUsers">
+          <li>
+            <span x-text="item.name"></span>
+            <span> - </span>
+            <span x-text="item.email"></span>
+          </li>
+        </template>
+      </ul>
+      <template x-for="item in dataPosts">
+        <div>
+          <h3 x-text="item.title"></h3>
+          <p x-text="item.body"></p>
+          <hr>
+        </div>
+      </template>
+    </div>
   </body>
 </html>

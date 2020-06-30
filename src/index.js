@@ -8,6 +8,7 @@ console.log("Welcome Fakhri Alauddin");
 
 // serviceApi
 import "./js/vanilla"; 
+import "./js/alpine"; 
 
 
 

@@ -2,8 +2,13 @@
 
 $font: "Karla", sans-serif;
 $primary-color: #3e6f9e;
+$second-color : #cc1b1b;
 
 body {
   font-family: $font;
   color: $primary-color;
+} 
+
+h2 {
+  color: $second-color;
 }
